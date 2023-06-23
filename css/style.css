@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation_bar {
+  height: 45px;
+  font-family: var(--font1);
+  background-color: #edb669;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+}
+
+.nav_left ul li a:hover {
+  color: rgb(100, 159, 237);
+  font-weight: bolder;
+}
+
+.nav_left ul li a {
+  text-decoration: none;
+  color: crimson;
+}
+
+.nav_left {
+  font-size: 50px;
+  display: flex;
+}
+.nav_left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 45px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.nav_right {
+  font-size: 22px;
+}
+.nav_left ul li {
+  list-style: none;
+  margin: 0 12px;
+  font-family: var(--font2);
+  transition: all 0.3s ease-in-out;
+}
+.content {
+  padding-top: 0px;
+  background-image: url("/image/bkgd_1.png");
+  height: 1000px;
+  width: 1000px;
+  background-size: 1500px;
+  background-repeat: no-repeat;
+}
+
+.content h1 {
+  padding-top: 200px;
+  padding-left: 400px;
+  display: flex;
+  font-family: var(--font2);
+  font-weight: 500px;
+  font-size: 45px;
+}
+
+.content p {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+  text-align: center;
+  display: flex;
+  font-family: var(--font1);
+  font-weight: 600px;
+}
+
+.footer {
+  height: 50px;
+  background-color: rgb(85, 53, 114);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer h3 {
+  color: beige;
+  font-family: var(--font1);
+}
+
+.clicking {
+  padding: 0px;
+  font-family: var(--font2);
+  font-size: 20px;
+  font-weight: 30px;
+}
+
+.container .btn {
+  margin-top: 50px;
+  margin-left: 400px;
+  margin-bottom: 70px;
+}
+
+.container .btn:hover {
+  color: white;
+  background-color: rgb(208, 109, 38);
+}
+
+

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+:root{
+    --main-bg-color:rgb(165, 42, 165);
+    --font1:'Ubuntu', sans-serif;
+    --font2:'Mulish', sans-serif;
+}
+
+.font_1{
+    font-family: var(--font1);
+}
+
+.font_2{
+    font-family: var(--font2);
+}
+
+.max_width_1{
+    max-width: 80vw;
+}
+
+.max_width_2{
+    max-width: 60vw;
+}
+
+.m_auto{
+    margin: auto;
+}
+
+.mar{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.mar_1{
+    margin-top: 0px;
+}
+
+form .btn{
+    padding: 10px;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: 2px solid rgb(2, 4, 10);
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: var(--font1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+form .btn:hover{
+    color: white;
+    background-color: rgb(248, 155, 237);
+}
